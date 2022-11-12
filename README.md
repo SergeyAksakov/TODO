@@ -1,1 +1,1 @@
-# todo-lists-was-here
+Написание TODO таблиц юзера при помощи js. Удаление TODO если ты его уже выполнил(при помощи консоли).главнео readline-sync установить (npm i readline-sync)
