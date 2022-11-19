@@ -1,7 +1,7 @@
 'use strict'
 
 let list = ["task-1", "task-2", "task-3", "task-4"];//какие задачи есть 
-class TODO {
+class task {
 filterTask(task) {
     list = list.filter((a) => {return a != task});//удаление(фильтрация) 
 }
@@ -18,5 +18,5 @@ console.log("Tasks was here + /n", list);
 const readline = require("readline-sync")();//подключение пакета
 const task = readline("task");
 
-new TODO().filterTask(task);
+new task().filterTask(task);
 console.log(list);
