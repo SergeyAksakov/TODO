@@ -3,7 +3,7 @@
 let list = ["task-1", "task-2", "task-3", "task-4"];//какие задачи есть 
 class TODO {
 filterTask(task) {
-    list = list.filter((a) => {return a != task});//удаление 
+    list = list.filter((a) => {return a != task});//удаление(фильтрация) 
 }
 addTask = (task) => {
     list.push(task);//добавление 
