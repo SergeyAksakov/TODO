@@ -1,1 +1,2 @@
-Написание TODO таблиц юзера при помощи js. Удаление TODO если ты его уже выполнил(при помощи консоли).главнео readline-sync установить (npm i readline-sync)
+TODO таблица в консоли при помощи  js (on classes);
+установка пакета npm i readline-sync
